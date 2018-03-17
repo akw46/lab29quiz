@@ -1,0 +1,100 @@
+/* Design your content*/
+/* w3schools.com for coding references in different languages */
+/* freecodecamp.org */
+
+*{
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  /* color.adobe.com */
+  background-color: #94A6AB;
+}
+
+main {
+  width: 75%;
+  min-width: 400px;
+  max-width: 1200px;
+  /* Center the box: */
+  margin: 0 auto;
+  /* Center the text: */
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+header {
+  /* Fix the header--need this because we used 'float' in header p */
+  overflow: auto;
+}
+
+/* format paragraphs only in the header parent tag */
+header p {
+  width: 50%;
+  float: left;
+}
+
+/* Target any HTML element with the following class */
+.questions {
+  text-align: left;
+}
+
+.score {
+  text-align: right;
+}
+
+header p span {
+  font-size: 30px;
+  display: block;
+}
+
+h2 {
+  margin: 50px 0;
+  font-size: 24px;
+  color: #1B503E;
+}
+
+li {
+  background-color: #0A2012;
+  padding 10px;
+  font-size: 18px;
+  margin: 15px auto;
+  border-radius: 25px;
+  width: 75%;
+  cursor: pointer;
+}
+
+/* pseudo selector */
+li:hover, li.selected {
+  background-color: #1B503E;
+}
+
+a {
+  width: 50%;
+  background-color: #DBD3D8;
+  padding: 10px 25px;
+  font-size: 25px;
+  margin: 25px;
+  /* anchor is an in-line type so margin can't work without changing it to in-line block */
+  display: inline-block;
+}
+
+a.ready {
+  background-color: #1B503E;
+}
+
+a.restart {
+  background-color: coral;
+}
